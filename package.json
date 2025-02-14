@@ -1,0 +1,23 @@
+{
+  "name": "api-automation-ai-agent",
+  "version": "1.0.0",
+  "description": "This repo is created to create a ai agent which can be used to run api tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.4.4",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
